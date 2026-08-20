@@ -1,0 +1,78 @@
+[
+  {
+    "name": "yahya",
+    "roll_number": "00f0",
+    "grades": [
+      {
+        "name": "english",
+        "grade": 80.0
+      },
+      {
+        "name": "physics",
+        "grade": 70.0
+      },
+      {
+        "name": "chemistry",
+        "grade": 75.0
+      },
+      {
+        "name": "maths",
+        "grade": 85.0
+      }
+    ]
+  },
+  {
+    "name": "ismail",
+    "roll_number": "594f",
+    "grades": [
+      {
+        "name": "english",
+        "grade": 80.0
+      },
+      {
+        "name": "urdu",
+        "grade": 85.0
+      },
+      {
+        "name": "maths",
+        "grade": 80.0
+      },
+      {
+        "name": "physics",
+        "grade": 75.0
+      }
+    ]
+  },
+  {
+    "name": "khobaib",
+    "roll_number": "6517",
+    "grades": [
+      {
+        "name": "urdu",
+        "grade": 60.0
+      },
+      {
+        "name": "physics",
+        "grade": 80.0
+      },
+      {
+        "name": "chemistry",
+        "grade": 90.0
+      },
+      {
+        "name": "maths",
+        "grade": 78.0
+      }
+    ]
+  },
+  {
+    "name": "maaz",
+    "roll_number": "c4a0",
+    "grades": []
+  },
+  {
+    "name": "saima",
+    "roll_number": "1b19",
+    "grades": []
+  }
+]
