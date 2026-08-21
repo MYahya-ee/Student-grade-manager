@@ -97,12 +97,20 @@ class GradeBook:
                 else:
                     grades_formatted = "no grades yet"
                 print(f"""Name: {i['name']}
-
-    
-
 Roll number: {i['roll_number']}
 Grades: {grades_formatted}""")
 
+    def delete_student(self, rollnumber):
+        final_list = []
+        with open("students_data.json", "r") as f:
+            students = json.load(f)
+        for student in students:
+            if rollnumber != student['roll_number']:
+                final_list.append(student)
+        self.students = final_list
+        with open("students_data.json", "w") as f:
+            json.dump(final_list, f, indent=2)
+            
 def main():
     gradebook = GradeBook()
     while True:
